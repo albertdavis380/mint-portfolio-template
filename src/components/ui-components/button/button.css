@@ -1,0 +1,14 @@
+@import '../../../style/main.css';
+
+.button .button-link {
+  background-color: #ffe600;
+  border: 2px solid #ffe600;
+  padding: 15px 30px;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+.button .button-link:hover {
+  border: 2px solid #ffe600;
+  background-color: transparent;
+}

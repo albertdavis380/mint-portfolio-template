@@ -1,0 +1,29 @@
+  @import '../../../style/main.css';
+  
+  .portfolio__box {
+    position: relative;
+    max-width: 370px;
+    margin: 15px auto;
+    cursor: pointer;
+ }
+  .portfolio__box img {
+    width: 100%;
+    height: auto;
+ }
+  .portfolio__box .portfolio__hover-info {
+    background-color: rgba(255, 230, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.3s ease;
+ }
+  .portfolio__box .portfolio__hover-info p {
+    text-transform: uppercase;
+ }
+  .portfolio__box .portfolio__hover-info:hover {
+    opacity: 1;
+ }
+  

@@ -1,0 +1,48 @@
+@import '../../style/main.css';
+
+.footer {
+  background-color: #1e1e1e;
+  width: 100%;
+  min-height: 180px;
+}
+.footer .footer-box {
+  min-height: 180px;
+  display: flex;
+  align-items: center;
+}
+.footer .footer-box p {
+  color: #fff;
+  font-size: 1.1rem;
+  margin-left: 30px;
+}
+.footer .back-to-top {
+  float: right;
+  cursor: pointer;
+}
+.footer .back-to-top img {
+  margin-left: 10px;
+}
+.footer .back-to-top:hover p {
+  color: #ffe600;
+}
+@media screen and (max-width: 580px) {
+  .footer .footer-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+  .footer .footer-box img {
+    padding-bottom: 30px;
+ }
+  .footer .back-to-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: none;
+    flex-direction: row;
+ }
+  .footer .back-to-top img {
+    padding-bottom: 0px;
+ }
+}
